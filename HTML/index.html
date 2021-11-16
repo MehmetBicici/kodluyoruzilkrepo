@@ -8,6 +8,13 @@
 <!--Başlıklar ve Paragraflarla Çalışmak-->
 
 <h2>HTML</h2>
+<a href="#footer">
+    En alt kisima git
+</a>
+<br>
+<a href="mailto:info@kodluyoruz.org">Kodluyoruza mail at</a>
+<br>
+<a href="tel:05555555555">Telefon ac</a>
 <h3>Açıklamalarla Çalışmak</h3>
 <!--HTML de enter tuşu işlemiyor. Yeni paragraf cümle için baştan paragraf açmak lazım-->
 <p>
@@ -22,3 +29,133 @@
 <p>daldqöldas</p>
 <h2>CSS</h2>
 <h2>Boostrap</h2>
+
+<!--Work with Lists-->
+<!--Ordered list or unordered list-->
+<!--Ordered list use ol
+    Undordered list use ul 
+    list item li
+-->
+
+<h1>Lists</h1>
+
+<ol> <!--Order list-->
+    <li>Liste öğesi *1*</li>
+    <li>Liste öğesi *2*</li>
+    <li>Liste öğesi *3*</li>
+</ol>
+
+<ul> <!--Unordered list-->
+    <li>Liste öğesi *1*</li>
+    <li>Liste öğesi *2*</li>
+    <li>Liste öğesi *3*</li>
+</ul>
+
+<ol> <!--Mixed list-->
+    <li>Liste öğesi *1*</li>
+    <li>Liste öğesi *2*</li>
+    <li>Girinti1 
+        <ul>
+            <li>Deneme1</li>
+            <li>Deneme2</li>
+        </ul>
+    </li>
+</ol>
+
+<!--Use Emmet-->
+
+<!--
+    Etiket isimlerini direk verebiliyoruz
+    + kardes oge
+    > icinde oge
+    ^ yukarı cık ve oge olustur
+    * carp: bir öğeden kaç tane istiyosun
+    lorem : 4 kelimelik lorem üret. Anlamsız yazı
+    . class olusturmak için kullanılıyor
+    # id oluşturmak için kullanılıyor
+-->
+
+
+<!--h1+p+p+h2-->
+<!--h1+p+h2+p+p+p+p -> h1+p+h2+p*3 as same as -->
+
+<!-- ul>li*5 -->
+
+<!-- ul>li*3^p -->
+
+<!-- Lorem İpsum lorem4-->
+
+<p>Lorem ipsum dolor sit.</p>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+
+<!-- Create class with dot h3.deneme-->
+<h3 class="deneme"></h3>
+<h1 class="deneme2">Lorem.</h1>
+<!--  Create id with #  h3#id-->
+<h3 id="id"></h3>
+<h1 id="id2">Lorem, ipsum.</h1>
+
+
+<!--Work with images-->
+<!--Width Height img içinde verilebiliyor-->
+<img src="https://ps.w.org/wp-feed-post-thumbnail/assets/icon.svg?rev=1582767" alt="Add image">
+<img src="https://picsum.photos/200/300" alt=""> <!--Lorem Picsum Image Source-->
+
+<!--Work with links-->
+<!--
+    - aynı sayfa içerisinde bir yere link verilebilir.
+    - Baska bir sayfaya git
+    - Baska bir web sitesine git
+    - mail at
+    - telefon et
+    - aynı sayfa içinde bir yere ? ID -> VER
+-->
+
+<!--Baska bir web sitesine git-->
+<br> <!--Alt satıra geç-->
+
+<a href="https://kodluyoruz.org" target="_blank"> <!--_blank ile verilen link yeni sekmede açılıyor-->
+    Kodluyoruz sayfasına gidilecek
+</a>
+
+<br> <!--Alt satıra geçer-->
+
+<a href="iletisim.html"> <!-- Aynı proje içindeki sayafalara gider-->
+    Iletisim sayfasına git
+</a>
+
+<br>
+
+<h2 id="footer">En alt kısım</h2>
+<p>Lorem ipsum dolor sit amet.</p>
+<!--    <a href="#footer">
+        En alt kisima git
+        </a> : Bu şekilde en alt kısıma gider--> 
+<!-- <a href="mailto:info@kodluyoruz.org">Kodluyoruza mail at</a> : Mail atmak için kullanılır-->
+<!-- <a href="tel:05555555555">Telefon ac</a> : Telefon açmak için kullanılır-->
+<div>
+    <a href="https://kodluyoruz.org" target="_blank">
+        <img src="https://cdn.sanity.io/images/9kdepi1d/production/a0d5d919e567c1ca122529eea4a6350ac2997198-926x749.svg?w=160&h=129&fit=crop&fm=webp" alt="KodluyoruzResim">
+    </a> <!-- Bu şekilde resime link atayabiliriz.-->
+
+    <!--Blok ve Inline Elements-->
+    <!-- Bulunduğu yerin tamamını kaplayan elementler blok element-->
+    <!-- Sadece yazılan text kadar alan kaplayan inline elementtir.-->
+
+    <p>
+        Lorem <strong>ipsum dolor</strong> <em>sit</em>. <!--Strong: bold, em: italic bunlar inline element-->
+    </p>
+<!--htmlreference.io -->
+</div>
+<br>
+
+<p>span:
+    Lorem ipsum, dolor sit amet consectetur <strong>adipisicing elit. Animi!</strong>
+    Lorem, <span style="color: red;">ipsum</span>.
+</p>
+
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, perspiciatis.
+    <hr> <!--Düz çizgi çizdiriyor-->
+</p>
