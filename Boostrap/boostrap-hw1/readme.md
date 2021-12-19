@@ -9,12 +9,13 @@
 
 - HomePage
 
-<img src="/Users/macbook/Documents/FrontEndPatikasi/kodluyoruzilkrepo/Boostrap/boostrap-hw1/image/ss1.png" width="1000px">
+![HomePage](https://github.com/MehmetBicici/kodluyoruzilkrepo/blob/main/Boostrap/boostrap-hw1/image/ss1.png?raw=true)
 
 - Products  
 
-<img src="/Users/macbook/Documents/FrontEndPatikasi/kodluyoruzilkrepo/Boostrap/boostrap-hw1/image/ss2.png" width="1000px">
+![Products](https://github.com/MehmetBicici/kodluyoruzilkrepo/blob/main/Boostrap/boostrap-hw1/image/ss2.png?raw=true)
 
 - About Us    
 
-<img src="/Users/macbook/Documents/FrontEndPatikasi/kodluyoruzilkrepo/Boostrap/boostrap-hw1/image/ss3.png" width="1000px">
+![AboutUs](https://github.com/MehmetBicici/kodluyoruzilkrepo/blob/main/Boostrap/boostrap-hw1/image/ss3.png?raw=true)
+
